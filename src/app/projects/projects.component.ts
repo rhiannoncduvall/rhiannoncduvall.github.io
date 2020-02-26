@@ -10,8 +10,8 @@ export class ProjectsComponent implements OnInit {
     {
       name: 'MyMovies',
       description: "A Movie App made with Angular and Clarity Design System for the front end, and Node.js, Express.js, and MongoDB for the back end. This app uses The Movie Database API to display information for movies. Users can find movies by using search terms, filtering by genre, or sort by popular or upcoming. Users can create accounts to store their favorite movies.",
-      repoUrl: 'https://github.com/rhiannoncduvall/ionic-todo-app',
-      repoName: 'ionic-todo-app',
+      repoUrl: 'https://github.com/rhiannoncduvall/movie-app',
+      repoName: 'movie-app',
       liveAppUrl: 'https://rcd-movie-app.netlify.com/',
       liveAppName: 'MyMovies',
       imagePath: '../../assets/images/movie-app-1.png'
