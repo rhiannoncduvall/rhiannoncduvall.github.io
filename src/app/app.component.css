@@ -25,11 +25,11 @@ a.navlink {
 }
 
 a.navlink:hover {
-    color: #1EAEDB;
+    color: #db0b65;
 }
 
 a.navlink:active {
-    color: #0FA0CE;
+    color: #f53887;
 }
 
 h1 {

@@ -588,9 +588,15 @@
   /* Links
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-    color: #1EAEDB; }
+    color:  #f53887; }
   a:hover {
-    color: #0FA0CE; }
+    color: #db0b65; 
+    text-decoration: none;}
+
+    /* a {
+      color: #1EAEDB; }
+    a:hover {
+      color: #0FA0CE; } */
   
   
   /* Buttons
@@ -636,8 +642,8 @@
   input[type="reset"].button-primary,
   input[type="button"].button-primary {
     color: #FFF;
-    background-color: #33C3F0;
-    border-color: #33C3F0; }
+    background-color: #f53887;
+    border-color: #f53887; }
   .button.button-primary:hover,
   button.button-primary:hover,
   input[type="submit"].button-primary:hover,
@@ -649,8 +655,8 @@
   input[type="reset"].button-primary:focus,
   input[type="button"].button-primary:focus {
     color: #FFF;
-    background-color: #1EAEDB;
-    border-color: #1EAEDB; }
+    background-color: #db0b65;
+    border-color: #db0b65; }
   
   
   /* Forms
@@ -696,7 +702,7 @@
   input[type="password"]:focus,
   textarea:focus,
   select:focus {
-    border: 1px solid #33C3F0;
+    border: 1px solid #f53887;
     outline: 0; }
   label,
   legend {
@@ -848,12 +854,12 @@
   @media (min-width: 1200px) {}
   
   
-  .gray-background {
-    background: #EEE;
-    /* background: rgba(206, 206, 206, 0.666); */
-    border-radius: 4px;
-    line-height: 30px;
-    margin-bottom: .75rem;
+.gray-background {
+  /* background: #EEE; */
+  background: rgba(206, 206, 206, 0.173);
+  border-radius: 4px;
+  line-height: 30px;
+  margin-bottom: .75rem;
 }
 
 .subheader {
